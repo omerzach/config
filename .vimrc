@@ -40,3 +40,6 @@ set ruler " Show line and column position of cursor
 set statusline=\ \%f%m%r%h%w\ ::\ %y\ [%{&ff}]\%=\ [%p%%:\ %c,%l/%L]\
 set laststatus=2
 set cmdheight=1
+
+" Show commands
+set showcmd
