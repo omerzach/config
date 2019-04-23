@@ -7,3 +7,10 @@ set nobackup
 set nowritebackup
 set noswapfile
 set noundofile
+
+" Configure search
+set wrapscan
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
