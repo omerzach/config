@@ -1,0 +1,2 @@
+ln -sv ~/code/config/.bash_profile ~
+ln -sv ~/code/config/.vimrc ~
