@@ -50,3 +50,6 @@ set formatoptions=c,q,r,t
 " Enable syntax highlighting
 filetype plugin on
 syntax on
+
+" Automatically remove trailing whitespace
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
