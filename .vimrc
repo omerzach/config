@@ -46,3 +46,7 @@ set showcmd
 
 " Set formatting options
 set formatoptions=c,q,r,t
+
+" Enable syntax highlighting
+filetype plugin on
+syntax on
