@@ -55,3 +55,7 @@ syntax on
 
 " Automatically remove trailing whitespace
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+" Use solarized dark color scheme
+set background=dark
+colorscheme solarized
