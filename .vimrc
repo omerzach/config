@@ -14,3 +14,24 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+
+" Configure tabs and indentation
+" TODO: See if these need tweaking; they were copied from https://github.com/bkase/dotfiles/blob/master/.vimrc
+set tabstop=2
+set softtabstop=2
+set noexpandtab
+set smarttab
+set shiftwidth=2
+set backspace=indent,eol,start
+set autoindent
+set smartindent
+set hidden
+set wildmenu
+set wildmode=list:longest
+set ttyfast
+set cursorline
+set relativenumber
+set undofile
+set nopaste
+set number " Show line numbers
+set ruler " Show line and column position of cursor
