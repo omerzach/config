@@ -43,3 +43,6 @@ set cmdheight=1
 
 " Show commands
 set showcmd
+
+" Set formatting options
+set formatoptions=c,q,r,t
