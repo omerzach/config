@@ -60,3 +60,6 @@ nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 " Use solarized dark color scheme
 set background=dark
 colorscheme solarized
+
+" Add vertical line at column 120
+set colorcolumn=120
