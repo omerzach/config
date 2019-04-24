@@ -37,6 +37,7 @@ set undofile
 set nopaste
 set number " Show line numbers
 set ruler " Show line and column position of cursor
+filetype plugin indent on
 
 " Configure status bar
 set statusline=\ \%f%m%r%h%w\ ::\ %y\ [%{&ff}]\%=\ [%p%%:\ %c,%l/%L]\
