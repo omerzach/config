@@ -9,3 +9,7 @@ if [ -f '/Users/omer/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/ome
 if [ -f '/Users/omer/code/infrastructure/bash_profile.bash' ]; then
   . '/Users/omer/code/infrastructure/bash_profile.bash';
 fi
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
