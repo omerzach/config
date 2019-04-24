@@ -5,3 +5,7 @@ if [ -f '/Users/omer/google-cloud-sdk/path.bash.inc' ]; then . '/Users/omer/goog
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/omer/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/omer/google-cloud-sdk/completion.bash.inc'; fi
+
+if [ -f '/Users/omer/code/infrastructure/bash_profile.bash' ]; then
+  . '/Users/omer/code/infrastructure/bash_profile.bash';
+fi
