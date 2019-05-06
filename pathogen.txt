@@ -1,2 +1,3 @@
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 git clone git@github.com:derekwyatt/vim-scala.git ~/.vim/bundle/vim-scala
+git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
