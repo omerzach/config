@@ -1,4 +1,5 @@
 ln -sv ~/code/config/.bash_profile ~
 ln -sv ~/code/config/.vimrc ~
 ln -sv ~/code/config/kitty.conf ~/.config/kitty/kitty.conf
+ln -sv ~/code/config/.gitignore_global ~ && git config --global core.excludesfile ~/.gitignore_global
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
