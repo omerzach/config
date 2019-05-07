@@ -1,0 +1,4 @@
+brew install cmake macvim
+brew install vim
+(cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive)
+(cd ~/.vim/bundle/YouCompleteMe && ./install.py)
