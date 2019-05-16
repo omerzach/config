@@ -21,7 +21,7 @@ set smartcase
 " TODO: See if these need tweaking; they were copied from https://github.com/bkase/dotfiles/blob/master/.vimrc
 set tabstop=2
 set softtabstop=2
-set noexpandtab
+set expandtab
 set smarttab
 set shiftwidth=2
 set backspace=indent,eol,start
