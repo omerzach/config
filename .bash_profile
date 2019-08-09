@@ -7,6 +7,7 @@ if [ -f '/Users/omer/google-cloud-sdk/path.bash.inc' ]; then . '/Users/omer/goog
 if [ -f '/Users/omer/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/omer/google-cloud-sdk/completion.bash.inc'; fi
 
 if [ -f '/Users/omer/code/infrastructure/bash_profile.bash' ]; then
+  export INFRA=$HOME/code/infrastructure
   . '/Users/omer/code/infrastructure/bash_profile.bash';
 fi
 
