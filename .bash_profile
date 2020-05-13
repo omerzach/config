@@ -21,4 +21,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Useful to avoid "Too many open files" errors
-ulimit -n 65536 65536
+ulimit -n 15000 15000
+
+# Part of Python 3 setup
+eval "$(pyenv init -)"
