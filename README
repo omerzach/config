@@ -1,5 +1,6 @@
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 ln -sv ~/code/config/.bash_profile ~
+ln -sv ~/code/config/.zshenv ~
 ln -sv ~/code/config/.vimrc ~
 ln -sv ~/code/config/kitty.conf ~/.config/kitty/kitty.conf
 ln -sv ~/code/config/.gitignore_global ~ && git config --global core.excludesfile ~/.gitignore_global
