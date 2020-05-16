@@ -14,4 +14,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Useful to avoid "Too many open files" errors
-ulimit -n 15000 15000
+ulimit -n 10240 12288
