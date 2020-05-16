@@ -1,3 +1,6 @@
+autoload -Uz compinit
+compinit
+
 [ -s "/Users/omer/.scm_breeze/scm_breeze.sh" ] && source "/Users/omer/.scm_breeze/scm_breeze.sh"
 
 if [ -f '/Users/omer/code/infrastructure/bash_profile.bash' ]; then
