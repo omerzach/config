@@ -25,3 +25,5 @@ ulimit -n 15000 15000
 
 # Part of Python 3 setup
 eval "$(pyenv init -)"
+
+export PATH="$HOME/.cargo/bin:$PATH"
