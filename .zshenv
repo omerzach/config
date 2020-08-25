@@ -3,11 +3,6 @@ compinit
 
 [ -s "/Users/omer/.scm_breeze/scm_breeze.sh" ] && source "/Users/omer/.scm_breeze/scm_breeze.sh"
 
-if [ -f '/Users/omer/code/infrastructure/bash_profile.bash' ]; then
-  export INFRA=$HOME/code/infrastructure
-  . '/Users/omer/code/infrastructure/bash_profile.bash';
-fi
-
 if [ -f ~/.git-completion.zsh ]; then
   . ~/.git-completion.zsh
 fi
