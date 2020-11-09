@@ -1,3 +1,6 @@
+git config --global user.name "Omer Zach"
+git config --global user.email omer.zach@gmail.com
+
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 ln -sv ~/code/config/.bash_profile ~
 ln -sv ~/code/config/.zshenv ~
