@@ -13,3 +13,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Useful to avoid "Too many open files" errors
 ulimit -n 10240 12288
+
+# opam configuration
+test -r /Users/omerzach/.opam/opam-init/init.zsh && . /Users/omerzach/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

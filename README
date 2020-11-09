@@ -4,6 +4,7 @@ ln -sv ~/code/config/.zshenv ~
 ln -sv ~/code/config/.vimrc ~
 ln -sv ~/code/config/kitty.conf ~/.config/kitty/kitty.conf
 ln -sv ~/code/config/.gitignore_global ~ && git config --global core.excludesfile ~/.gitignore_global
+ln -sv ~/code/config/.ocamlinit ~
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 defaults write NSGlobalDomain KeyRepeat -int 1

@@ -1,0 +1,4 @@
+https://reasonml.github.io/docs/en/installation
+
+yarn global add bs-platform
+npm install -g ocaml-language-server

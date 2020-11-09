@@ -1,0 +1,13 @@
+https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim
+
+- Make sure neovim >= 0.4.3 or vim >= 8.0.1453 is installed
+- Make sure nodejs >= 10.12 is installed
+- Make sure yarn is installed
+- Run :PlugInstall in Vim
+
+For Reason support:
+- Run `:CocInstall coc-reason` in Vim
+- Download the Mac OS zip file from the latest release on https://github.com/jaredly/reason-language-server/releases, unzip it, and put the reason-language-server.exe file somewhere matching what's in .vimrc.
+- Run :PlugClean, :PlugInstall, :PlugUpdate
+
+To fix issues with `let g:deoplete#enable_at_startup = 1` run `brew link --overwrite python@3.8 --force` then `pip3 install pynvim`
