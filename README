@@ -15,4 +15,6 @@ defaults write NSGlobalDomain KeyRepeat -int 1
 git clone git://github.com/scmbreeze/scm_breeze.git ~/.scm_breeze
 ~/.scm_breeze/install.sh
 
-Resolve zsh issues with compaudit using this trick: https://github.com/zsh-users/zsh-completions/issues/433#issuecomment-567871401
+Resolve zsh issues with compaudit using one of these tricks:
+- https://github.com/zsh-users/zsh-completions/issues/433#issuecomment-567871401
+- https://stackoverflow.com/a/13785716
